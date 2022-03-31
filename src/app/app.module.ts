@@ -8,6 +8,8 @@ import { CoutfinalComponent } from './coutfinal/coutfinal.component';
 import { PrecedentComponent } from './precedent/precedent.component';
 import { SuivantComponent } from './suivant/suivant.component';
 import { AppRoutingModule } from './app-routing.module';
+import { AaaaaaaaComponent } from './aaaaaaaa/aaaaaaaa.component';
+
 
 
 
@@ -17,7 +19,10 @@ import { AppRoutingModule } from './app-routing.module';
     AppComponent,
     CoutfinalComponent,
     PrecedentComponent,
-    SuivantComponent
+    SuivantComponent,
+    TesttttComponent,
+    TestttComponent,
+    AaaaaaaaComponent
   ],
   imports: [
     BrowserModule,
