@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="project_BDD" id="AB28E0EA-3037-303C-0E93-7910011A672C" version="3.5">
-<createdBy>MSI</createdBy>
-<createdTime>2022-05-31 21:58:23 UTC</createdTime>
-<ownerDesignName>project_BDD</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>AB28E0EA-3037-303C-0E93-7910011A672C</designId>
-</OSDM_Design>
