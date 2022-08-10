@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37B8FE4D-028E-B2CC-F696-F0A938F8AD5F" name="probleme">
+<createdBy>MSI</createdBy>
+<createdTime>2022-05-31 22:32:22 UTC</createdTime>
+<generatorID>75FCC929-E55D-F07F-F3B4-17749F729F7A</generatorID>
+<ownerDesignName>project_BDD</ownerDesignName>
+<engineerTo>
+<item key="F649A9E7-6EFA-E56C-B15C-135EA6A2A59D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id prob" id="6DF55B89-77E6-D35E-5B33-34AD6441BCDB">
+<createdBy>MSI</createdBy>
+<createdTime>2022-05-31 22:32:22 UTC</createdTime>
+<generatorID>5A850B0D-E2F7-84B6-6223-4D7C09F583D9</generatorID>
+<ownerDesignName>project_BDD</ownerDesignName>
+<engineerTo>
+<item key="F649A9E7-6EFA-E56C-B15C-135EA6A2A59D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="niv diff" id="37F12F4C-2997-5920-6CE7-9C75B9D5CC4F">
+<createdBy>MSI</createdBy>
+<createdTime>2022-05-31 22:32:22 UTC</createdTime>
+<generatorID>06C5D598-5DB6-3C98-C4ED-4596D6C9815B</generatorID>
+<ownerDesignName>project_BDD</ownerDesignName>
+<engineerTo>
+<item key="F649A9E7-6EFA-E56C-B15C-135EA6A2A59D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tmp opt" id="BD67C79F-40E8-E9D7-2876-31706F5ED730">
+<createdBy>MSI</createdBy>
+<createdTime>2022-05-31 22:32:22 UTC</createdTime>
+<generatorID>C3ECDB78-A20C-16B6-950B-6564540214EA</generatorID>
+<ownerDesignName>project_BDD</ownerDesignName>
+<engineerTo>
+<item key="F649A9E7-6EFA-E56C-B15C-135EA6A2A59D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="144DDBD3-7DC2-978C-2FF5-EE04636EF536" name="id prob">
+<createdBy>MSI</createdBy>
+<createdTime>2022-05-31 22:32:22 UTC</createdTime>
+<generatorID>792176D5-2B59-0F9C-C6F3-8018C50DBEFF</generatorID>
+<ownerDesignName>project_BDD</ownerDesignName>
+<engineerTo>
+<item key="F649A9E7-6EFA-E56C-B15C-135EA6A2A59D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6DF55B89-77E6-D35E-5B33-34AD6441BCDB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
